@@ -1,6 +1,6 @@
 Set Up Instructions
 1. Clone repo and setup virtual environment
-   git clone https://github.com/yourusername/django_email_validator.git
+   git clone https://github.com/Prasiddha7/django_email_validator.git
    cd django_email_validator
    python3 -m venv venv
    source venv/bin/activate
@@ -8,11 +8,11 @@ Set Up Instructions
 2. Install Dependencies
    pip install -r requirements.txt
    
-4. Install and Start Redis (Broker & Backend)
+3. Install and Start Redis (Broker & Backend)
   brew install redis
   brew services start redis
 
-4.Run migrations
+4. Run migrations
   python manage.py migrate
 
 5. Start Django Server
